@@ -1,0 +1,30 @@
+{
+  "name": "when-run",
+  "version": "0.0.1",
+  "description": "flow control for nodejs",
+  "main": "index.js",
+  "directories": { 
+    "lib" : "./lib"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "underscore": "1.4.x",
+    "colors": "0.6.x",
+    "tracer": "0.5.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": ">=0.1.2"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pjnovas/go-with-the-flow.git"
+  },
+  "author": "Pablo Novas",
+  "license": "MIT"
+}
